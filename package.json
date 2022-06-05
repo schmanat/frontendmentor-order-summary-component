@@ -1,0 +1,30 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "Frontentmentor.io Chalange",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css",
+    "dev": "npx tailwindcss -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmanat/frontendmentor.io.git"
+  },
+  "keywords": [
+    "Order",
+    "summery",
+    "Component"
+  ],
+  "author": "Manuel Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schmanat/frontendmentor.io/issues"
+  },
+  "homepage": "https://github.com/schmanat/frontendmentor.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
