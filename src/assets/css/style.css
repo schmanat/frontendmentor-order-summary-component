@@ -697,18 +697,6 @@ video {
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-top {
-  background-position: top;
-}
-
-.bg-left {
-  background-position: left;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }

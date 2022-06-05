@@ -4,7 +4,7 @@
   "description": "Frontentmentor.io Chalange",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css",
+    "build": "npx tailwindcss -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css && copyfiles -e '**/tailwind.css' src/**/* public/ ",
     "dev": "npx tailwindcss -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css --watch"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/schmanat/frontendmentor.io#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "copyfiles": "^2.4.1",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
   }
